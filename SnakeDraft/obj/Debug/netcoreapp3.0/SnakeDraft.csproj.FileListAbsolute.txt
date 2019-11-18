@@ -1,0 +1,11 @@
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/bin/Debug/netcoreapp3.0/SnakeDraft
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/bin/Debug/netcoreapp3.0/SnakeDraft.deps.json
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/bin/Debug/netcoreapp3.0/SnakeDraft.runtimeconfig.json
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/bin/Debug/netcoreapp3.0/SnakeDraft.runtimeconfig.dev.json
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/bin/Debug/netcoreapp3.0/SnakeDraft.dll
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/bin/Debug/netcoreapp3.0/SnakeDraft.pdb
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/obj/Debug/netcoreapp3.0/SnakeDraft.csprojAssemblyReference.cache
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/obj/Debug/netcoreapp3.0/SnakeDraft.AssemblyInfoInputs.cache
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/obj/Debug/netcoreapp3.0/SnakeDraft.AssemblyInfo.cs
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/obj/Debug/netcoreapp3.0/SnakeDraft.dll
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/obj/Debug/netcoreapp3.0/SnakeDraft.pdb

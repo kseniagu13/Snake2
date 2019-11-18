@@ -1,0 +1,11 @@
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/bin/Debug/netcoreapp3.0/Point
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/bin/Debug/netcoreapp3.0/Point.deps.json
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/bin/Debug/netcoreapp3.0/Point.runtimeconfig.json
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/bin/Debug/netcoreapp3.0/Point.runtimeconfig.dev.json
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/bin/Debug/netcoreapp3.0/Point.dll
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/bin/Debug/netcoreapp3.0/Point.pdb
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.csprojAssemblyReference.cache
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.AssemblyInfoInputs.cache
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.AssemblyInfo.cs
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.dll
+/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.pdb
