@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{7ABC51D2-6934-4418-BA1B-53AE9EECDBCA}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Point/Program.cs">
     <Files>
-      <File FileName="Point/Program.cs" Line="43" Column="71" />
-      <File FileName="Point/HorizontalLines.cs" Line="3" Column="16" />
-      <File FileName="Point/Point.cs" Line="5" Column="18" />
-      <File FileName="Point/VerticalLine.cs" Line="23" Column="30" />
+      <File FileName="Point/Program.cs" Line="53" Column="31" />
+      <File FileName="Point/Figure.cs" Line="7" Column="65" />
+      <File FileName="Point/MyPoint.cs" Line="20" Column="32" />
+      <File FileName="Point/Snake.cs" Line="37" Column="38" />
+      <File FileName="Point/HorizontalLines.cs" Line="1" Column="1" />
+      <File FileName="Point/VerticalLine.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

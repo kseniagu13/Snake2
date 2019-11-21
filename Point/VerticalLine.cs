@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Point
 {
-    class VerticalLine //public eest kustutada,, muidu ei toimi!!!
+    class VerticalLine : Figure//public eest kustutada,, muidu ei toimi!!!
     {
-        public List<MyPoint> pointList = new List<MyPoint>(); 
+        //public List<MyPoint> pointList = new List<MyPoint>(); 
 
         public VerticalLine(int yTop, int yBottom, int x, char symbol)
         {
@@ -16,12 +16,12 @@ namespace Point
             }
 
         }
-        public void DrawVerticallLine()
+        /*public void DrawVerticallLine()
         {
             foreach (MyPoint point in pointList)
             {
                 point.Draw();
             }
-        }
+        }*/
     }
 }

@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 namespace Point
 {
-    class HorizontalLines
+    class HorizontalLines: Figure
     {
-        public List<MyPoint> pointList = new List<MyPoint>();
-
+        //public List<MyPoint> pointList = new List<MyPoint>();
         public HorizontalLines(int xLeft, int xRight, int y, char symbol)
         {
             for(int i= xLeft; i<=xRight; i++)
@@ -15,13 +14,13 @@ namespace Point
             }
             
         }
-        public void DrawHorizontlLine()
+        /*public void DrawHorizontlLine()
         {
             foreach(MyPoint point in pointList)
             {
                 point.Draw();
             }
-        }
+        }*/
 
     }
 }
