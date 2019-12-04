@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/SnakeDraft.csproj": {}
+    "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/SnakeDraft/SnakeDraft.csproj": {}
   },
   "projects": {
-    "/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/SnakeDraft.csproj": {
+    "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/SnakeDraft/SnakeDraft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/SnakeDraft.csproj",
+        "projectUniqueName": "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/SnakeDraft/SnakeDraft.csproj",
         "projectName": "SnakeDraft",
-        "projectPath": "/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/SnakeDraft.csproj",
-        "packagesPath": "/Users/Britta/.nuget/packages/",
-        "outputPath": "/Users/Britta/Desktop/SnakeGame/SnakeDraft/SnakeDraft/obj/",
+        "projectPath": "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/SnakeDraft/SnakeDraft.csproj",
+        "packagesPath": "/Users/kseniagustsenko/.nuget/packages/",
+        "outputPath": "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/SnakeDraft/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/Britta/.config/NuGet/NuGet.Config"
+          "/Users/kseniagustsenko/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "/Users/Britta/.nuget/packages/": {},
+    "/Users/kseniagustsenko/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/Point.csproj",
+      "projectUniqueName": "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/Point.csproj",
       "projectName": "Point",
-      "projectPath": "/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/Point.csproj",
-      "packagesPath": "/Users/Britta/.nuget/packages/",
-      "outputPath": "/Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/",
+      "projectPath": "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/Point.csproj",
+      "packagesPath": "/Users/kseniagustsenko/.nuget/packages/",
+      "outputPath": "/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Britta/.config/NuGet/NuGet.Config"
+        "/Users/kseniagustsenko/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"

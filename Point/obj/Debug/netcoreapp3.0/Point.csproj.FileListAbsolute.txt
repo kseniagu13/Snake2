@@ -9,3 +9,14 @@
 /Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.AssemblyInfo.cs
 /Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.dll
 /Users/Britta/Desktop/SnakeGame/SnakeDraft/Point/obj/Debug/netcoreapp3.0/Point.pdb
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/bin/Debug/netcoreapp3.0/Point
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/bin/Debug/netcoreapp3.0/Point.deps.json
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/bin/Debug/netcoreapp3.0/Point.runtimeconfig.json
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/bin/Debug/netcoreapp3.0/Point.runtimeconfig.dev.json
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/bin/Debug/netcoreapp3.0/Point.dll
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/bin/Debug/netcoreapp3.0/Point.pdb
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/obj/Debug/netcoreapp3.0/Point.csprojAssemblyReference.cache
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/obj/Debug/netcoreapp3.0/Point.AssemblyInfoInputs.cache
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/obj/Debug/netcoreapp3.0/Point.AssemblyInfo.cs
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/obj/Debug/netcoreapp3.0/Point.dll
+/Users/kseniagustsenko/Desktop/arv.tar.osad/SnakeGame/Point/obj/Debug/netcoreapp3.0/Point.pdb

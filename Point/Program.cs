@@ -33,24 +33,67 @@ namespace Point
             //Console.SetWindowSize(80, 25); ei tööta
             //Console.SetBufferSize(80, 25);
 
-            HorizontalLines topLine = new HorizontalLines(0, 78, 0, '*');
-            topLine.DrawFigure();
+            /* HorizontalLines topLine = new HorizontalLines(0, 78, 0, '*');
+             topLine.DrawFigure();
 
-            HorizontalLines bottomLine = new HorizontalLines(0, 78, 24, '*');
-            bottomLine.DrawFigure();
+             HorizontalLines bottomLine = new HorizontalLines(0, 78, 24, '*');
+             bottomLine.DrawFigure();
 
-            VerticalLine leftLine = new VerticalLine(0, 24, 0, '*');
-            leftLine.DrawFigure();
+             VerticalLine leftLine = new VerticalLine(0, 24, 0, '*');
+             leftLine.DrawFigure();
 
-            VerticalLine rightLine = new VerticalLine(0, 24, 78, '*');
-            rightLine.DrawFigure();
+             VerticalLine rightLine = new VerticalLine(0, 24, 78, '*');
+             rightLine.DrawFigure();*/
+            decimal gameSpeed = 200m;
+
+            Walls walls = new Walls(80, 25);
+            walls.DrawWalls();
 
             MyPoint tail = new MyPoint(6, 5, '*');
-            Snake snake = new Snake(tail, 4, Direction.RIGHT);
+            Snake snake = new Snake(tail, 4, Direction.RIGHT); //loome ussi
             snake.DrawFigure();
-            snake.MoveSnake();
-            Thread.Sleep(100);
-            snake.MoveSnake();
+           
+
+            FoodCatering foodCatered = new FoodCatering(80, 25, '$'); //loome söögi talle
+            MyPoint food = foodCatered.CaterFood();
+            food.Draw();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            int score = 0;
+
+            while (true)
+            {
+                if (walls.IsHitByFigure(snake))
+                {
+                    break;
+                }
+
+                if (snake.Eat(food)) //kui sööb ära
+                {
+                    food = foodCatered.CaterFood();
+                    food.Draw();
+                    score++;
+                    gameSpeed *= .952m;
+                    
+                   
+                    
+                }
+                else // kui uss pole midagi söönud, siis liigu edasi
+                {
+                    snake.MoveSnake();
+                }
+                System.Threading.Thread.Sleep(Convert.ToInt32(gameSpeed)); //vaikselt liiguks
+
+
+                if (Console.KeyAvailable) //kui nupp oli vajutatud
+                {
+                    ConsoleKeyInfo key = Console.ReadKey(); //loeb vajutust
+                    snake.ReadUserKey(key.Key);
+                }
+
+                
+            }
+          
+            WriteGameOver(score); //teeme meetodi, et mäng on läbi
 
             /*HorizontalLines hrLine = new HorizontalLines(5,10, 10,'*');
             hrLine.DrawHorizontlLine();
@@ -65,5 +108,27 @@ namespace Point
             vrLine2.DrawVerticallLine();*/
             Console.ReadLine();
         }
+        public static void WriteGameOver(int score)
+        {
+            Console.Clear();
+            int xOffset = 35; //kus kirjutab message
+            int yOffset = 8;
+            
+            Console.ForegroundColor = ConsoleColor.DarkRed; //värvi valisime
+            Console.SetCursorPosition(xOffset, yOffset++); //y++, et läheks järgmisele reale
+            ShowMessage("*********", xOffset, yOffset++);
+            ShowMessage("GAME OVER", xOffset, yOffset++);
+            ShowMessage("*********", xOffset, yOffset++);
+            ShowMessage($"Your score is {score}", xOffset, yOffset++);
+
+        }
+        public static void ShowMessage(string text, int xOffset, int yOffset)
+        {
+            Console.SetCursorPosition(xOffset, yOffset);
+            Console.WriteLine(text);
+        }
+
+        
+
     }
 }
