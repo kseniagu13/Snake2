@@ -54,7 +54,7 @@ namespace Point
             snake.DrawFigure();
            
 
-            FoodCatering foodCatered = new FoodCatering(80, 25, '$'); //loome söögi talle
+            FoodCatering foodCatered = new FoodCatering(80, 25, '@'); //loome söögi talle
             MyPoint food = foodCatered.CaterFood();
             food.Draw();
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -64,6 +64,7 @@ namespace Point
             {
                 if (walls.IsHitByFigure(snake))
                 {
+                    Console.Beep();
                     break;
                 }
 
